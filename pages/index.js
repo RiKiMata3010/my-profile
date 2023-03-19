@@ -14,7 +14,7 @@ import code from "../public/mobile-application1.png";
 import design from "../public/HTML.png";
 import consulting from "../public/adobe.jpeg";
 import Image from "next/image";
-import web1 from "../public/web1.png";
+import web1 from "../public/GCFTorontoWeb.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
@@ -76,16 +76,12 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">My Experience</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              I am a Computer Programming and Analysis student at George Brown College. I have completed huge number of projects all throughout my college.
+              <span className="text-teal-500"> Web development</span>, <span className="text-teal-500"> Mobile development</span>, and <span className="text-teal-500"> Graphic Design </span>
+              are my strongest suits with a mix off other programming languages such as <span className="text-teal-500">Java</span>, <span className="text-teal-500">Python</span>, and lastly <span className="text-teal-500">C#</span>.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              Here are a list of tools that I use per skills. 
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -135,16 +131,14 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              All of my projects are located in my GitHub. My projects ranges from my 1st year up to 3rd year in college.
+              The images below are my projects that I really loved working on. 
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              To see more of my projects, click this  <a
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  href="https://github.com/RiKiMata3010"
+                >BUTTON</a>
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
