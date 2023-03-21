@@ -20,7 +20,7 @@ import web1 from "../public/GCFTorontoWeb.png";
 import web2 from "../public/beyondthebend.png";
 import web3 from "../public/employee.png";
 import web4 from "../public/chat_app.png";
-import web5 from "../public/web5.png";
+import web5 from "../public/churchedia.png";
 import web6 from "../public/web6.png";
 
 export default function Home() {
