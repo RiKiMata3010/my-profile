@@ -76,7 +76,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">My Experience</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I am a Computer Programming and Analysis student at George Brown College. I have completed huge number of projects all throughout my college.
               <span className="text-teal-500"> Web development</span>, <span className="text-teal-500"> Mobile development</span>, and <span className="text-teal-500"> Graphic Design </span>
