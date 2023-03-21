@@ -7,7 +7,7 @@ import {
   AiFillYoutube,
   AiFillApi,
   AiFillApple,
-  AiFillWindows
+  AiFillWindows,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -17,9 +17,9 @@ import design from "../public/HTML.png";
 import consulting from "../public/adobe.jpeg";
 import Image from "next/image";
 import web1 from "../public/GCFTorontoWeb.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
+import web2 from "../public/beyondthebend.png";
+import web3 from "../public/employee.png";
+import web4 from "../public/chat_app.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
@@ -65,7 +65,7 @@ export default function Home() {
             "Programming isn't about what you know; it's about what you can figure out.” - Chris Pine
             </p> */}
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillApi/>
+              <AiFillApi />
               <AiFillWindows />
               <AiFillApple />
             </div>
@@ -78,12 +78,37 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I am a Computer Programming and Analysis student at George Brown College. I have completed huge number of projects all throughout my college.
-              <span className="text-teal-500"> Web development</span>, <span className="text-teal-500"> Mobile development</span>, and <span className="text-teal-500"> Graphic Design </span>
-              are my strongest suits with a mix off other programming languages such as <span className="text-teal-500">Java</span>, <span className="text-teal-500">Python</span>, and lastly <span className="text-teal-500">C#</span>.
+              I am a Computer Programming and Analysis student at George Brown
+              College. I have completed huge number of projects all throughout
+              my college.
+              <span className="text-teal-500"> Web development</span>,{" "}
+              <span className="text-teal-500"> Mobile development</span>, and{" "}
+              <span className="text-teal-500"> Graphic Design </span>
+              are my strongest suits with a mix off other programming languages
+              such as <span className="text-teal-500">Java</span>,{" "}
+              <span className="text-teal-500">Python</span>, and lastly{" "}
+              <span className="text-teal-500">C#</span>.
             </p>
+
+            <h1>
+              Click to Download{" "}
+              <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://github.com/RiKiMata3010/Resume-Cover-Letter/blob/main/Phoenix_Armand_Ani_Resume_for_Web_Development.docx?raw=true"
+              >
+                Resume
+              </a>
+              <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://github.com/RiKiMata3010/Resume-Cover-Letter/blob/main/Phoenix_Armand_Ani_Cover_Letter_-_Copy.docx?raw=true"
+              >
+                Cover Letter
+              </a>
+            </h1>
+
+            <br />
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Here are a list of tools that I use per skills. 
+              Here are a list of tools that I use per skills.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -133,27 +158,44 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              All of my projects are located in my GitHub. My projects ranges from my 1st year up to 3rd year in college.
-              The images below are my projects that I really loved working on. 
+              All of my projects are located in my GitHub. My projects ranges
+              from my 1st year up to 3rd year in college. The images below are
+              my projects that I really loved working on.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              To see more of my projects, click this  <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://github.com/RiKiMata3010"
-                >BUTTON</a>
+              To see more of my projects, click this{" "}
+              <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://github.com/RiKiMata3010"
+              >
+                BUTTON
+              </a>
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+            <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://phoenixarmandani.wixsite.com/gcft"
+              >
+                View
+              </a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                
               />
             </div>
             <div className="basis-1/3 flex-1">
+            <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://github.com/RiKiMata3010"
+              >
+                View
+              </a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -163,6 +205,12 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+            <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://github.com/RiKiMata3010"
+              >
+                View
+              </a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -172,6 +220,12 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+            <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://github.com/RiKiMata3010"
+              >
+                View
+              </a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -181,6 +235,12 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
+            <a
+                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                href="https://github.com/RiKiMata3010"
+              >
+                View
+              </a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -195,7 +255,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web6}
+                src={""}
               />
             </div>
           </div>
